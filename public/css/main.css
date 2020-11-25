@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.1em;
+    font-weight: 200;
+}
+
+.main-header {
+    background-color: black;
+    height: 120px;
+    color: white;
+    width: 100%;
+}

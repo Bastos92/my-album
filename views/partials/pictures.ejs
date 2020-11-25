@@ -1,0 +1,8 @@
+<% pictures.forEach(picture => { %>
+    <div class="col-md-4 p-3">
+        <img src="/images/<%= picture.fileName %>" class="img-fluid rounded-top rounded-bottom" />
+        <div>
+            <h3 class="text-center"><%= picture.title %></h3>
+        </div>
+    </div>
+<% }) %>
