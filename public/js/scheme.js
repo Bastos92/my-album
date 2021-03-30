@@ -36,3 +36,5 @@ for (let i = 0; i < 12; i++) {
 
     addPicture.save();
 }
+
+console.log('Bernard is great!')

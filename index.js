@@ -43,7 +43,7 @@ app.get('/', (req, res) => {
     collection.then(data => {
         res.render('home', { pictures: data });
     }).catch(err => {
-
+        console.log('error');
     });
 })
 
@@ -52,7 +52,7 @@ app.get('/home', (req, res) => {
 })
 
 app.post('/search', (req, res) => {
-    res.send(req.body.);
+    res.send(req.body);
 })
 
 app.listen(8080, () => {
